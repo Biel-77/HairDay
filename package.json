@@ -9,6 +9,7 @@
     "dev": "webpack server"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
     "html-webpack-plugin": "^5.6.0",
     "json-server": "^1.0.0-alpha.21"
   },
