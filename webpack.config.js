@@ -36,6 +36,7 @@ module.exports = {
     })
   ],
 
+<<<<<<< HEAD
   module: {
     rules: [
       {
@@ -55,3 +56,29 @@ module.exports = {
     ]
   }
 };
+=======
+    plugins: [
+        new htmlWebpackPlugin({
+            template: path.resolve(__dirname, "index.html"),
+            favicon: path.resolve("src", "assets", "scissors.svg"),
+        }),
+
+        new CopyWebpackPlugin({
+            patterns: [
+                {
+                    from: path.resolve(__dirname, "src", "assets"),
+                    to: path.resolve(__dirname, "dist","src", "assets"),
+                },
+            ],
+        }),
+    ],
+    module: {
+        rules:[
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"],
+            },
+        ],
+    },
+}
+>>>>>>> dd3d02c6c657def5d48a3c9b33da375f7e4a9eeb

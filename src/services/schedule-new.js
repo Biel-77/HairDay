@@ -14,3 +14,5 @@ export async function SchedulesNew({id, name, when}) {
         alert("Erro ao criar novo agendamento: " )
     }
 }
+
+
