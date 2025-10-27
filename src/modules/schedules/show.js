@@ -49,6 +49,8 @@ export function schedulesShow({dailySchedules}) {
             else {
                 periodNight.appendChild(item)
             }
+
+            
         })
         
     } catch (error) {
