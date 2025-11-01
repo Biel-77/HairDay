@@ -2,8 +2,6 @@
   <img src="./src/assets/logo.svg">
 </h1>
 
-<img src=".github/thumbnail.png" alt="Thumbnail">
-
 ## Projeto 💻
 
 Hair Day é uma aplicação web de agendamentos de cortes de cabelo
